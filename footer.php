@@ -13,7 +13,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="site">
 		<div class="site-info">
-			&copy; <?php echo date("Y"); ?> Tri County Elite.
+			&copy; <?php echo date("Y"); ?> Tri County Elite. All rights reserved.
 		</div><!-- .site-info -->
   </div>
 </footer><!-- #colophon -->
