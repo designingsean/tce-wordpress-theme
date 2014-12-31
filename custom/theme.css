@@ -1,0 +1,134 @@
+/*
+light blue:697B8D
+medium blue:425870
+dark blue:00254D
+*/
+
+.content-area {
+  float: left;
+  margin: 0 -30% 0 0;
+  width: 100%;
+}
+.site-main {
+  margin: 0 30% 0 0;
+}
+.site-content .widget-area {
+  float: right;
+  overflow: hidden;
+  width: 25%;
+}
+.site-footer {
+  clear: both;
+  width: 100%;
+}
+/*rebuild*/
+body {
+font:100%/200% Tahoma, Geneva, Verdana, sans-serif;
+color:#222;
+background:#fff url(images/background.png) repeat-x left top;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight:bold;
+color:#425870;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+text-decoration:none;
+color:#425870;
+}
+.site-title {
+position:absolute;
+width:403px;
+height:291px;
+top:76px;
+right:0;
+}
+.site-title a {
+display:block;
+width:403px;
+height:291px;
+background:transparent url(images/logo.png) no-repeat left top;
+text-indent:-2000px;
+}
+.site-description {
+font-size:140%;
+color:#697B8D;
+font-style:italic;
+font-weight: bold;
+margin-top:10px;
+}
+h1 {
+margin-bottom:0;
+font-size:220%;
+}
+h2 {
+font-size:200%;
+}
+h3 a, h3 a:visited {
+color:#00254D;
+font-size:180%;
+}
+h4 {
+font-size:160%;
+}
+h5 {
+font-size:150%;
+}
+h6, p, ul, ol, blockquote, dt, dd, legend {
+font-size:140%;
+}
+a, a:visited {
+color:#00254D;
+}
+/*layout*/
+.site {
+width:960px;
+margin:0 auto;
+position:relative;
+}
+.site-header {
+height:395px;
+background:transparent url(images/graphic.png) no-repeat left 67px;
+}
+.nav-menu {
+list-style:none;
+margin:0;
+padding:0;
+float:right;
+margin-top:9px;
+}
+.nav-menu li {
+float:left;
+margin-left:20px;
+}
+.nav-menu li a {
+display:block;
+text-decoration:none;
+color:#fff;
+font-weight:bold;
+}
+.entry-header {
+  margin: 1.5em 0 0;
+}
+.sticky {
+background-color:#425870;
+border-radius: 10px;
+padding: 20px;
+margin: 0 -20px 20px;
+}
+.site-footer {
+clear:both;
+background-color:#697B8D;
+overflow:hidden;
+padding:20px 0;
+}
+.site-footer .article {
+background:transparent url(images/footer_back.png) no-repeat left top;
+min-height:101px;
+float:left;
+width:252px;
+padding:14px 14px 0;
+margin-left:25px;
+}
+.sticky, .sticky h1, .sticky a, .footer h3, .footer p, .footer a {
+color:#fff;
+}
