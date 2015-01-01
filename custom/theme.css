@@ -81,7 +81,8 @@ color:#00254D;
 }
 /*layout*/
 .site {
-width:960px;
+width:90%;
+max-width:960px;
 margin:0 auto;
 position:relative;
 }
@@ -131,4 +132,21 @@ margin-left:25px;
 }
 .sticky, .sticky h1, .sticky a, .footer h3, .footer p, .footer a {
 color:#fff;
+}
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    background-image: none;
+  }
+  .site-description {
+    display: none;
+  }
+  /*.site-title {
+    position: relative;
+  }*/
+  .content-area, .site-content .widget-area, .site-main {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
 }
